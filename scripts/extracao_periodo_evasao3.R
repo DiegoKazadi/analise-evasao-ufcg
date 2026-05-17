@@ -1,5 +1,5 @@
 # -----------------------------
-# LEITURA (como você já faz)
+# LEITURA
 # -----------------------------
 p1 <- ler_csv_seguro("evasao_p1.csv") %>% mutate(periodo_num = 1)
 p2 <- ler_csv_seguro("evasao_p2.csv") %>% mutate(periodo_num = 2)
